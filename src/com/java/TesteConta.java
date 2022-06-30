@@ -24,9 +24,9 @@ public class TesteConta {
 		contaInvestimento.cliente.idade = 17;
 		
 		System.out.println("Numero da conta: " + contaInvestimento.numero);
-		System.out.println(contaInvestimento.saldo);
-		System.out.println(contaInvestimento.cliente.nome);
-		System.out.println(contaInvestimento.cliente.idade);
+		System.out.println("Saldo da conta: " + contaInvestimento.saldo);
+		System.out.println("Cliente da conta: " + contaInvestimento.cliente.nome);
+		System.out.println("Idade do cliente da conta: " + contaInvestimento.cliente.idade);
 		
 	}
 }
